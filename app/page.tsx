@@ -9,9 +9,9 @@ import {motion} from "framer-motion";
 export default function  HomePage() {
 const projectsarray = [
   {
-    title: "Credit Card Mapping Project",
+    title: "Bank Forms UI Conversion",
     description:
-      "Developed and implemented UI components based on wireframes using React.js and the client’s CSS library. Ensured responsiveness and accessibility.",
+"Converted traditional banking forms into interactive React.js UI components. Improved validation, accessibility, and responsiveness."
 
   },
   {
@@ -43,11 +43,18 @@ const projectsarray = [
       Hi, I’m <span className="text-purple-600">Shefali Sinha</span> 👋
     </h1>
     </motion.h1>
+    <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2 }}
+          className="text-lg text-gray-600 max-w-2xl leading-relaxed"
+        >
     <p className="text-lg text-gray-600 leading-relaxed">
       React.js & Front-End Developer with 3+ years of experience building
       responsive and performant web applications. Currently working as a
       Systems Engineer at Tata Consultancy Services.
     </p>
+    </motion.p>
     <div className="flex flex-wrap justify-center md:justify-start gap-4">
       <a
         href="#about"
@@ -84,6 +91,7 @@ const projectsarray = [
 </section>
 
 <section id="about" className="max-w-4xl mx-auto px-6 py-16 text-center">
+    <h2 className="text-3xl font-bold text-center mb-10">About Me</h2>
   <About />
 </section>
       <section id="projects" className="max-w-5xl mx-auto px-6 py-16">
@@ -100,6 +108,7 @@ const projectsarray = [
         <a
           href="https://linkedin.com/in/shefali-sinha-931084272"
           target="_blank"
+          rel="noopener noreferrer"
           className="text-blue-600 hover:underline"
         >
           LinkedIn

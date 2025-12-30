@@ -3,14 +3,14 @@ export const About = () => {
     <div className="text-gray-800 leading-relaxed space-y-6">
       <p className="text-lg">
         I’m <span className="font-semibold text-gray-900">Shefali Sinha</span>, a
-        <span className="text-blue-600 font-medium"> results-driven Front-End Developer</span> 
-        with over <span className="font-semibold text-gray-900">3 years of experience</span> 
+        <span className="text-blue-600 font-medium"> results-driven Front-End Developer </span> 
+        with over <span className="font-semibold text-gray-900"> 4 years of experience </span> 
         building and optimizing user interfaces using <span className="font-semibold text-gray-900">React.js</span>. 
-        I specialize in developing responsive, high-performance web applications and translating design mockups into intuitive, user-friendly interfaces.
+        I specialize in developing responsive, high-performance web applications and creating user-friendly interfaces.
       </p>
 
       <p className="text-lg">
-        At <span className="font-semibold text-gray-900">Tata Consultancy Services (TCS)</span>, 
+        At <span className="font-semibold text-gray-900"> Tata Consultancy Services (TCS) </span>, 
         I’ve contributed to the development of scalable UI components and libraries, 
         optimized application performance using advanced React techniques, 
         and ensured seamless front-end and back-end integration. 
@@ -29,7 +29,7 @@ export const About = () => {
             ⚙️ Technical Skills
           </h4>
           <p className="text-gray-700 text-base leading-relaxed">
-            React.js, JavaScript (ES6+), Tailwind CSS, HTML5, CSS3, Git, REST APIs, Redux, Bootstrap, MUI
+            React.js (Hooks) , JavaScript (ES6+), Tailwind CSS, HTML5, CSS3, Git, REST APIs, Redux, Bootstrap, MUI , Postman , Jest (basic testing)
           </p>
         </div>
       </div>
